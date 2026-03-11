@@ -8,8 +8,6 @@ app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
   extended: true
 })); 
 
-app.use(express.static('public'))
-
 
 // index page
 app.get('/testGet', function(req, res) {	
